@@ -1,5 +1,7 @@
 Analyzing and Predicting Finance Sector Stock Prices Using the NYSE Financial Sector Index (XLF) via Regression Analysis with Python Implementation
+
 Project Duration: Sep 2024 - Oct 2024
+
 Institution: University at Buffalo School of Management, The State University of New York
 
 Project Overview
