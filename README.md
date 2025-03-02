@@ -84,10 +84,6 @@ Conclusion
 
 This project demonstrates how regression analysis can be applied to predict stock prices in the financial sector. By using the NYSE Financial Sector Index (XLF) as a market proxy and incorporating lagged returns and volatility into the analysis, the model provides insights into how the broader financial market influences individual company stock prices.
 
-License
-
-This project is licensed under the MIT License.
-
 Author
 
 Satyam
