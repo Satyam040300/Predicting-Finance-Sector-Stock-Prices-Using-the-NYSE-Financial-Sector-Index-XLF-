@@ -24,7 +24,6 @@ Volatility: Compute the rolling volatility for both stock and XLF returns using 
 Lagged Returns: Include lagged returns for both stock and XLF data to capture delayed effects on stock prices.
 
 Regression Analysis:
-
 Apply linear regression to model the relationship between stock returns and XLF returns, using lagged returns and volatility as explanatory variables.
 The regression model will identify how changes in the financial sector (represented by XLF) influence individual stock returns.
 
@@ -51,13 +50,9 @@ pip install yfinance statsmodels pandas numpy matplotlib
 
 Main Functions
 get_data(stock_ticker, start_date, end_date): Downloads the historical stock and XLF index data and calculates daily returns.
-
 calculate_volatility(data, window=21): Calculates the rolling volatility (standard deviation) for the given stock or XLF data.
-
 run_regression(stock_data, financial_index_data): Performs linear regression on the stock and XLF returns, including lagged returns and volatility as predictors.
-
 predict_next_day(stock_data, financial_index_data, model): Uses the regression model to predict the next day's stock price.
-
 main(stock_ticker, start_date, end_date): Runs the entire process of fetching data, training the model, and predicting the stock price.
 
 Usage
