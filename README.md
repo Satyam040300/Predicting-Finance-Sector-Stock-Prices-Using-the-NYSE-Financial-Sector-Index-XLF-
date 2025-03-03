@@ -53,8 +53,8 @@ This project uses the following Python libraries:
 To run the program, simply call the main function with the desired stock ticker, start date, and end date.
 
 Example:
-python
-Copy
+
+
 if __name__ == '__main__':
     stock_ticker = 'GS'  # Example: Goldman Sachs stock
     start_date = '2020-01-01'
@@ -67,8 +67,7 @@ This will download historical data for Goldman Sachs (GS), analyze the relations
 The project outputs the predicted stock price for the selected company for the next trading day based on the regression model built from the historical returns and volatility data.
 
 Example Output:
-nginx
-Copy
+
 Predicted stock price for GS on the next day: $245.50
 Additionally, the project optionally plots a scatter plot showing the relationship between the stock returns and the XLF returns.
 
