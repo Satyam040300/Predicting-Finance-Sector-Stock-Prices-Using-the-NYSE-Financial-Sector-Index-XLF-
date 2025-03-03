@@ -68,7 +68,7 @@ The project outputs the predicted stock price for the selected company for the n
 
 Example Output:
 
-Predicted stock price for GS on the next day: $245.50
+Predicted stock price for GS on the next day: $245.50.
 Additionally, the project optionally plots a scatter plot showing the relationship between the stock returns and the XLF returns.
 
 ## Conclusion
